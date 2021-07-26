@@ -1,0 +1,80 @@
+:root {
+    --font-color: #06303A;
+    --background-page: #023946;
+    --white-green: #C1F1F1;
+    --white: #FFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
+
+    background: var(--background-page);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem 3rem;
+    gap: 1.25rem;
+    border-radius: 1rem;
+
+    background: var(--white-green);
+    color: var(--font-color);
+    
+    font-size: 1.3rem;
+}
+
+section button {
+    height: 3rem;
+
+    background: var(--font-color);
+    color: var(--white);
+
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    transition: .3s;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.calculator {
+    width: 400px;
+}
+
+.display {
+    width: 100%;
+
+    padding: 1rem;
+
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    border: none;
+    background: #075164;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #021a20;
+}
