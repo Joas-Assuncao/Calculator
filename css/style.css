@@ -97,7 +97,7 @@ h1 {
 
 @media(max-width: 540px) {
     html {
-        font-size: 68.75%;
+        font-size: 75%;
     }
 
     .calculator {
@@ -107,7 +107,7 @@ h1 {
 
 @media(max-width: 500px) {
     html {
-        font-size: 62.5%;
+        font-size: 68.75%;
     }
 
     .calculator {
