@@ -54,7 +54,7 @@ h1 {
 
 .calculator {
     width: 25rem;
-    height: 27rem;
+    height: 25rem;
 }
 
 .display {
@@ -68,7 +68,7 @@ h1 {
 
 .btn {
     width: 100%;
-    height: 3.125rem;
+    height: 3.375rem;
     font-size: 2rem;
     border: none;
     background: #075164;
@@ -91,7 +91,7 @@ h1 {
     }
 
     .calculator {
-        height: 30rem;
+        height: 28rem;
     }
 }
 
@@ -101,7 +101,7 @@ h1 {
     }
 
     .calculator {
-        height: 35rem;
+        height: 33rem;
     }
 }
 
@@ -111,7 +111,7 @@ h1 {
     }
 
     .calculator {
-        height: 35rem;
+        height: 33rem;
     }
 }
 
