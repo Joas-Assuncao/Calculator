@@ -44,6 +44,11 @@ function Calculator() {
     this.clickKeys = () => {
         document.addEventListener('keypress', (event) => {
             const key = event.keyCode;
+            const elementIsActive = document.activeElement;
+
+            if(elementIsActive === this.display) {
+                return;
+            }
 
             if(key === 13) {
                 this.doResult();
@@ -67,7 +72,12 @@ function Calculator() {
 
         document.addEventListener('keyup', (event) => {
             const key = event.keyCode;
+            const elementIsActive = document.activeElement;
 
+            if(elementIsActive === this.display) {
+                return;
+            }
+            
             if(key === 8) {
                 this.deleteOneValueDisplay();
                 return;
